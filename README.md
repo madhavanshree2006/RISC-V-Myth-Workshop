@@ -1,4 +1,4 @@
-##RISC-V MYTH Workshop 🚀
+### RISC-V MYTH Workshop 🚀
 
 Welcome to my learning journey through the **RISC-V MYTH Workshop by **VSD and Redwood EDA**.
 
