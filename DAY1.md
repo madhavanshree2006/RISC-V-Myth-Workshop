@@ -202,7 +202,8 @@ gcc sum1ton.c
 ./a.out
 ```
 
-![Screenshot from 2025-05-28 22-02-43.png](Screenshot_from_2025-05-28_22-02-43.png)
+![Screenshot_from_2025-05-28_22-02-43](https://github.com/user-attachments/assets/8f0af3b2-b587-49c8-92ed-9076645f5868)
+
 
 ### 
 
@@ -221,13 +222,16 @@ riscv64-unknown-elf-objdump -d sum1ton.o | less
 
 ```
 
-![WhatsApp Image 2025-05-28 at 23.10.57_5b10a76e.jpg](WhatsApp_Image_2025-05-28_at_23.10.57_5b10a76e.jpg)
+![WhatsApp_Image_2025-05-28_at_23 10 57_5b10a76e](https://github.com/user-attachments/assets/bf58c5f8-165d-4e33-8a12-80b7ef07e9a9)
 
-![WhatsApp Image 2025-05-28 at 23.10.58_fab1cdfd.jpg](WhatsApp_Image_2025-05-28_at_23.10.58_fab1cdfd.jpg)
+
+![WhatsApp_Image_2025-05-28_at_23 10 58_fab1cdfd](https://github.com/user-attachments/assets/aff4db76-ca52-435a-a358-a4c900a7691a)
+
 
 With `-Ofast` optimization:
 
-![WhatsApp Image 2025-05-28 at 23.10.58_1361696d.jpg](WhatsApp_Image_2025-05-28_at_23.10.58_1361696d.jpg)
+![WhatsApp_Image_2025-05-28_at_23 10 58_1361696d](https://github.com/user-attachments/assets/2e7779eb-57a6-4f67-b7a0-1957d855918c)
+
 
 ```bash
 riscv64-unknown-elf-gcc -Ofast -mabi=lp64 -march=rv64i -o sum1ton.o sum1ton.c
@@ -237,7 +241,8 @@ Now only ~12 instructions in `main()`.
 
 Now only ~12 instructions in `main()`.
 
-![image.png](1fffbba5-bad4-460b-b14c-beb758f98320.png)
+![1fffbba5-bad4-460b-b14c-beb758f98320](https://github.com/user-attachments/assets/c347beaa-1cf8-45bf-a3a6-f305ba03da2b)
+
 
 ### **RV_D1SK2_L3: Spike Simulation and Debug**
 
@@ -265,9 +270,11 @@ spike pk sum1ton.o
     - `lui a0, %hi(.LC1)`
     - `addi a0, a0, %lo(.LC1)`
 
-![image.png](5556e981-18c1-4493-a37e-271b98208e19.png)
+![5556e981-18c1-4493-a37e-271b98208e19](https://github.com/user-attachments/assets/3e84a35b-f218-4f49-9d94-fba0d8c08030)
 
-![image.png](7bd2ff16-d260-47fe-9fd8-7f1c6220ca43.png)
+
+![7bd2ff16-d260-47fe-9fd8-7f1c6220ca43](https://github.com/user-attachments/assets/a8f42bfd-0b1b-4d03-ad2d-4dac92a90adc)
+
 
 ---
 
