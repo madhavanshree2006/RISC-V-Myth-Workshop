@@ -270,6 +270,9 @@ spike pk sum1ton.o
     - `lui a0, %hi(.LC1)`
     - `addi a0, a0, %lo(.LC1)`
 
+![Screenshot 2025-05-28 232542](https://github.com/user-attachments/assets/d40640c3-fd0f-4957-8f7c-3d1ee7cbbef0)
+
+
 ![5556e981-18c1-4493-a37e-271b98208e19](https://github.com/user-attachments/assets/3e84a35b-f218-4f49-9d94-fba0d8c08030)
 
 
