@@ -14,8 +14,7 @@
 
 ### **RV_D4SK1_L2_Starting Point Code for RISC-V Labs Part-1**
 
-![442161811-89e1374e-b63a-4095-8aa5-939adeb64a81](https://github.com/user-attachments/assets/313495c0-e17a-4df3-adad-af1f6256f1da)
-
+![442161811-89e1374e-b63a-4095-8aa5-939adeb64a81](https://github.com/user-attachments/assets/f3bae0ee-7e39-4e55-9e74-c12a50fd8002)
 
 ### **RV_D4SK1_L3_Starting Point Code for RISC-V Labs Part-2**
 
